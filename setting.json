@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Dracula darker contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "files.autoSave": "afterDelay",
+    "editor.lineHeight": 2,
+    "liveServer.settings.donotShowInfoMsg": true
+}
