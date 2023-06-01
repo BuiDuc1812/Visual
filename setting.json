@@ -1,10 +1,51 @@
 {
-    "workbench.colorTheme": "Dracula darker contrast",
+     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "material-icon-theme",
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "files.autoSave": "afterDelay",
     "editor.lineHeight": 2,
-    "liveServer.settings.donotShowInfoMsg": true
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.minimap.autohide": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "files.autoSave": "afterDelay",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "branch-create:command"
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "yaml.schemas": {
+        "file:///c%3A/Users/db939/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.enabled": true,
+    "atlascode.jira.jqlList": [
+        {
+            "id": "b0886dac-8a8b-404c-aaa7-e5da0a4e62c9",
+            "enabled": true,
+            "name": "My graphicallyspeaking Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "c895c2f5-3ac7-4032-8093-d9d33341c604",
+            "monitor": true
+        }
+    ],
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "c895c2f5-3ac7-4032-8093-d9d33341c604",
+        "projectKey": "ACS"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
